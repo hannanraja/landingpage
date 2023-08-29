@@ -11,3 +11,88 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hero_section {
+  background: url(../public/hero.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.hero_logo {
+  width: 50px;
+}
+
+.history_section {
+  background: url(../public/peak.jpg) no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: 100vw;
+}
+.climb_section {
+  /* background: url(/images/peak.jpg) no-repeat; */
+  /* background-size: cover; */
+  height: 200px;
+  width: 100vw;
+}
+
+.carosel-bg {
+  background: rgba(65, 79, 107, 0.8);
+}
+
+.text_section {
+  font-size: 18px;
+  margin-top: 62px;
+}
+
+.dot_section {
+  margin-top: -45px;
+}
+.table_styling {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.schedule_section {
+  background: url(../public/photo-1417021423914-070979c8eb34.jpg) no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: 100vw;
+}
+
+.footer_section {
+  background: #404e6c;
+  width: 100vw;
+}
+
+.owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.owl-dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 5px;
+  outline: none !important;
+  border-radius: 50%;
+  /* border: 2px solid white !important; */
+  background: #404e6c !important;
+  transition: all 0.3s ease;
+}
+
+.owl-dot.active {
+  /* width: 13px; */
+  background: white !important;
+  border: 2px solid white !important;
+}
+
+.owl-dot.active,
+.owl-dot:hover {
+  background: white !important;
+}
